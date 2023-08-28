@@ -1,8 +1,9 @@
 .orgSection{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    flex-direction: column;
 }
 
 .title{
@@ -14,7 +15,7 @@
 }
 
 .orgSection img{
-    position: absolute;
+    margin: 2rem;
     right: 30%;
     cursor: pointer;
 }
